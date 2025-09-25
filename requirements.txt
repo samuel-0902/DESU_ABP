@@ -1,4 +1,4 @@
-
+# --- Core scientific stack ---
 numpy==2.3.3
 pandas==2.3.2
 scipy==1.16.2
@@ -6,15 +6,24 @@ scikit-learn==1.7.2
 joblib==1.5.2
 pyarrow==21.0.0
 
+# --- Deep learning ---
 tensorflow==2.20.0
 tensorboard==2.20.0
+keras==3.11.3
 
+# --- Viz / notebooks ---
 matplotlib==3.10.6
 plotly==6.3.0
 ipywidgets==8.1.7
 ipykernel==6.30.1
+jupyter==1.1.1
+ipython==7.34.0
 
+# --- Utils ---
 tqdm==4.67.1
 rich==14.1.0
 psutil==7.0.0
 Pillow==11.3.0
+
+# --- Architecture diagram ---
+graphviz==0.21
